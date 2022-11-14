@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+
+body {
+    padding-left: 1%;
+    padding-right: 1.5%;
+    padding-top: 1%;
+    background-image: url('./photos/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg');
+    z-index: -1;
+    color: white;
+
+}
+
+ul li button{
+    background: none;
+    color: white;
+    border-color: transparent;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+ul li button:hover{
+    color: red;
+}
+
+main p {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rightHeader ul {
+    margin-top: 1.5%;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
